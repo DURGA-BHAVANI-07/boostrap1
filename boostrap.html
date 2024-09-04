@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="bg-lightblue d-flex justify-content-between align-items-center p-3" style="background-color: aqua;">
+        <h1>Bhavanimart</h1>
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#about">AboutMe</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">ContactMe</a>
+            </li>
+        </ul>
+    </header>
+
+    <section id="about" class="d-flex justify-content-center align-items-center p-3 my-3 bg-secondary">
+        <div class="about-left">
+            <img src="../../19r batch/profile.jpg" alt="" class="img-fluid" style="width: 300px; border-radius: 150px;">
+        </div>
+        <div class="about-right ms-3">
+            <p class="fs-4 fst-italic">Hello there, my name is Vamsi and I'm a React developer with expertise in React, Node.js, SQL with 1.7 years of experience.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="my-3 p-3 bg-dark text-light">
+        <div class="row">
+            <div class="col-md-4">
+                <table class="table table-bordered text-center">
+                    <thead class="table-success">
+                        <tr>
+                            <th>Frontend</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-bordered text-center">
+                    <thead class="table-success">
+                        <tr>
+                            <th>Backend</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Node.js</td>
+                        </tr>
+                        <tr>
+                            <td>Express.js</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-bordered text-center">
+                    <thead class="table-success">
+                        <tr>
+                            <th>Servers</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MySQL</td>
+                        </tr>
+                        <tr>
+                            <td>Oracle</td>
+                        </tr>
+                        <tr>
+                            <td>MongoDB</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="d-flex flex-wrap justify-content-between my-3">
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/TwYKwaEjJd4/maxresdefault.jpg" class="card-img-top"  class="pb-3" alt="Portfolio Project">
+            <div class="card-body">
+                <h5 class="card-title">Portfolio Project</h5>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="btn btn-primary">Code</a>
+                    <a href="#" class="btn btn-secondary">Live</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+            <img src="https://cdn.pixabay.com/photo/2017/03/13/17/26/ecommerce-2140603_640.jpg" class="card-img-top" class="pb-3" alt="E-commerce Project">
+            <div class="card-body">
+                <h5 class="card-title">E-commerce Project</h5>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="btn btn-primary">Code</a>
+                    <a href="#" class="btn btn-secondary">Live</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://i.ytimg.com/vi/gXEI8Oy0EMc/maxresdefault.jpg" class="card-img-top" class="pb-3" alt="Amazon Clone">
+            <div class="card-body">
+                <h5 class="card-title">Amazon Clone</h5>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="btn btn-primary">Code</a>
+                    <a href="#" class="btn btn-secondary">Live</a>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="https://www.freshbooks.com/wp-content/uploads/2022/02/expense-tracking.jpg" class="card-img-top"  class="pb-3" alt="Expense Tracker">
+            <div class="card-body">
+                <h5 class="card-title">Expense Tracker</h5>
+                <div class="d-flex justify-content-between">
+                    <a href="#" class="btn btn-primary">Code</a>
+                    <a href="#" class="btn btn-secondary">Live</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="text-center my-3 bg-light p-4">
+        <input type="text" class="form-control my-2 w-50 mx-auto" placeholder="Name">
+        <input type="email" class="form-control my-2 w-50 mx-auto" placeholder="Email">
+        <textarea class="form-control my-2 w-50 mx-auto" placeholder="Message"></textarea>
+        <button class="btn btn-primary my-2">Send Us Message</button>
+    </section>
+
+    <footer class="mt-4 p-4 bg-light text-center">
+        <div class="social-Links mb-3">
+            <a href="https://github.com/VamsiEnduri" class="me-3"><i class="fa-brands fa-github"></i></a>
+            <a href="#" class="me-3"><i class="fa-brands fa-google"></i></a>
+            <a href="#" class="me-3"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-mobile"></i></a>
+        </div>
+        <div class="up-links">
+            <a href="#about" class="me-3">About</a>
+            <a href="#skills" class="me-3">Skills</a>
+            <a href="#projects" class="me-3">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS (Optional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
